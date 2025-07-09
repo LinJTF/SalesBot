@@ -52,7 +52,7 @@ def upload_products_to_qdrant(
             f"Link: {product['Link']}"
         )
         payload = {
-            "content": page_content,
+            "text": page_content,
             "metadata": {
                 "produto": product["Produto"],
                 "preco_original": product["Preço Original"],

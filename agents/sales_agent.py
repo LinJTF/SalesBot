@@ -1,6 +1,7 @@
 from llama_index.agent.openai import OpenAIAgent
 from llama_index.llms.openai import OpenAI
 from config.config import settings
+from langfuse_logger import langfuse
 
 
 def get_sales_agent(tools=None):
