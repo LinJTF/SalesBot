@@ -31,7 +31,6 @@ def query_products_tool(query: str) -> str:
     return "\n".join(produtos)
 
 
-
 def check_user_tool(cpf: str) -> str:
     """
     Verifica se um usuário com o CPF informado já possui conta ativa no sistema.

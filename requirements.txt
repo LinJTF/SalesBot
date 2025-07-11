@@ -1,0 +1,32 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+
+# LlamaIndex and AI dependencies
+llama-index
+llama-index-llms-openai
+llama-index-embeddings-openai
+llama-index-vector-stores-qdrant
+openai
+
+# Vector database
+qdrant-client
+
+# Data processing
+pandas
+numpy
+
+# Monitoring and logging
+langfuse
+openinference-instrumentation-llama-index
+
+# Environment management
+python-dotenv
+
+# HTTP requests
+requests
+
+# Additional utilities
+python-dateutil
